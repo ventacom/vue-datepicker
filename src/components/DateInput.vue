@@ -48,6 +48,7 @@
       @keydown.tab="$emit('tab', $event)"
       @keyup="handleKeyup($event)"
       @keyup.space="handleKeyupSpace($event)"
+      @keyup.enter="handleKeyupSpace($event)"
     />
     <!-- Clear Button -->
     <button
