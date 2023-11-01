@@ -42,7 +42,7 @@
       @keydown.backspace="handleDelete"
       @keydown.delete="handleDelete"
       @keydown.down.prevent="handleKeydownDown"
-      @keydown.enter.prevent="handleKeydownEnter"
+      @keydown.enter.prevent="handleKeydownSpace($event)"
       @keydown.esc.prevent="handleKeydownEscape"
       @keydown.space="handleKeydownSpace($event)"
       @keydown.tab="$emit('tab', $event)"
